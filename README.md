@@ -1,13 +1,3 @@
-# KnotLink —— 为所有软件的对话，打一个理解的结
-
-**软件互联的通用协议 · 轻量 · 开放 · 语义化**
-
----
-
-
-
-## 🌐 已接入协议的软件生态
-
 <p align="left">
   <a href="https://github.com/KnotLink-Protocol/KnotLinkService" title="KnotLinkService">
     <img src="docs/assets/icons/KnotLink.png" width="64" alt="KnotLinkService"/>
@@ -67,15 +57,17 @@
 </p>
 
 
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./README.assets/KnotLink.png" width="64" alt="KnotLinkService" title="KnotLinkService"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotHub" title="KnotHub"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotLink工具链" title="KnotLink工具链"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotBlock" title="KnotBlock"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="NodeLink" title="NodeLink"/> | <img src="./README.assets/MineBackup.png" width="64" alt="MineBackup" title="MineBackup"/> | <img src="./README.assets/FolderRewind.png" width="64" alt="FolderRewind" title="FolderRewind"/> |
-|                     **KnotLinkService**                      |                         **KnotHub**                          |                      **KnotLink工具链**                      |                        **KnotBlock**                         |                         **NodeLink**                         |                        **MineBackup**                        |                       **FolderRewind**                       |
+<p align="center">
+  <img src="docs/assets/icons/KnotLink.png" width="128" align="left" hspace="16" alt=""/>
+  <b style="font-size: 48px;">KnotLink协议+周边</b><br/><br/>
+  ——为所有软件的对话，打一个理解的结
+</p>
 
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./README.assets/Frilet.png" width="64" alt="Frilet" title="Frilet"/> | <img src="./README.assets/Friles.png" width="64" alt="Friles" title="Friles"/> | <img src="./README.assets/Schedule.png" width="64" alt="Schedule" title="Schedule"/> | <img src="./README.assets/MsgNotification.png" width="64" alt="MsgNotification" title="MsgNotification"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="NamePicker" title="NamePicker"/> | <img src="./README.assets/InkCanvas.png" width="64" alt="InkCanvas" title="InkCanvas"/> | <img src="./README.assets/ClassIsland.png" width="64" alt="ClassIsland" title="ClassIsland"/> |
-|                          **Frilet**                          |                          **Friles**                          |                         **Schedule**                         |                     **MsgNotification**                      |                        **NamePicker**                        |                        **InkCanvas**                         |                       **ClassIsland**                        |
+
+![Stars](https://img.shields.io/github/stars/KnotLink-Protocol/KnotLink)
+![Size](https://img.shields.io/github/repo-size/KnotLink-Protocol/KnotLink)
+![License](https://img.shields.io/github/license/KnotLink-Protocol/KnotLink)
+![Commit](https://img.shields.io/github/last-commit/KnotLink-Protocol/KnotLink)
 
 ## 🌍 加入生态
 
