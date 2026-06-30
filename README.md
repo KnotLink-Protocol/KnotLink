@@ -60,12 +60,20 @@
 <p align="center">
   <img src="docs/assets/icons/KnotLink.png" width="128" align="center" hspace="16" alt=""/>
 </p>
-## <p align="center"><b>KnotLink协议+周边</b></p>
 
+<div align="center">
+
+# KnotLink 协议+周边
+
+[![GitHub release (latest by date)]	
 ![Stars](https://img.shields.io/github/stars/KnotLink-Protocol/KnotLink)
 ![Size](https://img.shields.io/github/repo-size/KnotLink-Protocol/KnotLink)
 ![License](https://img.shields.io/github/license/KnotLink-Protocol/KnotLink)
 ![Commit](https://img.shields.io/github/last-commit/KnotLink-Protocol/KnotLink)
+
+</div>
+
+
 
 ## 🌍 加入生态
 
