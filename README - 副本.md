@@ -31,8 +31,24 @@
     <img src="https://cdn.example.com/icons/app-e-circle.png" width="64" alt="软件E"/>
   </a>
 </p>
+&nbsp;&nbsp;
+  <a href="https://example.com/app-b" title="KnotHub">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件B"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-c" title="KnotLink工具链">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件C"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-d" title="KnotBlock">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件D"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="NodeLink">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件E"/>
+  </a>
 
-## 💡 软件本该更懂彼此
+💡 软件本该更懂彼此
 
 你是否有过这样的瞬间——课表软件上显示“下一节是数学”，于是你手动打开屏幕书写软件，切换到对应的讲义，再打开点名器准备点名……每节课重复一次。
 
