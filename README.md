@@ -8,8 +8,12 @@
 
 <div align="center">
 
-# KnotLink 协议+周边	
+# KnotLink 协议+周边
+
+
 为所有软件的对话，打一个理解的结
+
+
 ![Stars](https://img.shields.io/github/stars/KnotLink-Protocol/KnotLink)
 ![Size](https://img.shields.io/github/repo-size/KnotLink-Protocol/KnotLink)
 ![License](https://img.shields.io/github/license/KnotLink-Protocol/KnotLink)
@@ -88,11 +92,10 @@
 
 
 # KnotLink 生态
-<div align="center">
-[![KnotLinkSDK](https://img.shields.io/badge/📦-KnotLinkSDK-4A90D9?style=flat-square)](https://github.com/KnotLink-Protocol/KnotLinkSDK)
-[![KnotHub](https://img.shields.io/badge/🌐-KnotHub-2ECC71?style=flat-square)](https://github.com/KnotLink-Protocol/KnotHub)
-[![KNodeIndex](https://img.shields.io/badge/📇-KNodeIndex-E74C3C?style=flat-square)](https://github.com/KnotLink-Protocol/KNodeIndex)
-</div>
+[![KnotLinkSDK](https://img.shields.io/badge/SDK-KnotLinkSDK-4A90D9?style=flat-square)](https://github.com/KnotLink-Protocol/KnotLinkSDK)
+[![KnotHub](https://img.shields.io/badge/Hub-KnotHub-2ECC71?style=flat-square)](https://github.com/KnotLink-Protocol/KnotHub)
+[![KNodeIndex](https://img.shields.io/badge/Index-KNodeIndex-E74C3C?style=flat-square)](https://github.com/KnotLink-Protocol/KNodeIndex)
+
 
 | 项目 | 定位 | 链接 |
 |------|------|------|
