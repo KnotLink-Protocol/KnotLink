@@ -13,11 +13,13 @@
 
 为所有软件的对话，打一个理解的结
 
-
 ![Stars](https://img.shields.io/github/stars/KnotLink-Protocol/KnotLink)
 ![Size](https://img.shields.io/github/repo-size/KnotLink-Protocol/KnotLink)
 ![License](https://img.shields.io/github/license/KnotLink-Protocol/KnotLink)
 ![Commit](https://img.shields.io/github/last-commit/KnotLink-Protocol/KnotLink)
+![Commits](https://img.shields.io/github/commit-activity/t/KnotLink-Protocol/KnotLink?style=flat-square)
+![Issues](https://img.shields.io/github/issues/KnotLink-Protocol/KnotLink?style=flat-square)
+![Forks](https://img.shields.io/github/forks/KnotLink-Protocol/KnotLink?style=flat-square)
 
 
 ![代码贡献统计](https://repobeats.axiom.co/api/embed/d8fc19c2b7f3a30f9fb0abcd0aa5768051d0af22.svg "Repobeats analytics image")
@@ -25,6 +27,8 @@
 KnotLink 是一款轻量化、语义化应用间互联通信协议。
 
 它拥有完善的基础库、丰富的配套软件及辅助工具，旨在简化通讯流程，降低联动门槛，扩大互联范围，为开发者提供一套简洁而完备的应用互联解决方案。
+
+#### [官方网站](https://knotlink.cn/) | [项目文档](https://knotlink.cn/docs/intro) | [程序安装](https://knotlink.cn/docs/intro) | [接入者列表](https://knotlink.cn/docs/node-and-recipe-index/overview) | [配方共享平台](https://knotlink.cn/docs/node-and-recipe-index/overview)
 
 </div>
 
@@ -82,6 +86,10 @@ KnotLink 是一款轻量化、语义化应用间互联通信协议。
 
 辅助工具：KnotHub、KnotToolChain、配方编辑器
 
+> [!TIP]
+>
+> 您可以查看 [KnotLink 文档](https://knotlink.cn/docs/intro) 了解更多。
+
 # 当你有了 KnotLink，可以
 
 | 应用无缝协作 | 零代码自动化 | AI Agent 无缝调用 |
@@ -129,7 +137,11 @@ KnotLink 是一款轻量化、语义化应用间互联通信协议。
 
 详情参考文档
 
-#### 编写自动化配方（互联配方）
+#### 自动化配方（互联配方）
+
+##### 下载配方
+
+##### 编辑配方
 
 打开Knothub，切换到互联配方选项卡，点击新建配方，编辑你的配方吧。
 
@@ -205,7 +217,7 @@ KnotLink 是一个开源项目，欢迎所有开发者参与共建：
 
 ---
 
-## 📚 链接
+## 有关链接
 
 * GitHub：`github.com/KnotLink-Protocol`
 * 文档：`knotlink.cn`
