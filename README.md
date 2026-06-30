@@ -58,11 +58,9 @@
 
 
 <p align="center">
-  <img src="docs/assets/icons/KnotLink.png" width="128" align="left" hspace="16" alt=""/>
-  <b style="font-size: 48px;">KnotLink协议+周边</b><br/><br/>
-  ——为所有软件的对话，打一个理解的结
+  <img src="docs/assets/icons/KnotLink.png" width="128" align="center" hspace="16" alt=""/>
 </p>
-
+## <p align="center"><b>KnotLink协议+周边</b></p>
 
 ![Stars](https://img.shields.io/github/stars/KnotLink-Protocol/KnotLink)
 ![Size](https://img.shields.io/github/repo-size/KnotLink-Protocol/KnotLink)
