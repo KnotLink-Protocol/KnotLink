@@ -4,131 +4,78 @@
 
 ---
 
-## 💡 软件本该更懂彼此
 
-你是否有过这样的瞬间——课表软件上显示“下一节是数学”，于是你手动打开屏幕书写软件，切换到对应的讲义，再打开点名器准备点名……每节课重复一次。
 
-你的软件们明明各自擅长一件事，但它们之间却像是隔着语言的巴别塔。
+## 🌐 已接入协议的软件生态
 
-这就是 KnotLink 要解决的问题。
+<p align="left">
+  <a href="https://github.com/KnotLink-Protocol/KnotLinkService" title="KnotLinkService">
+    <img src="docs/assets/icons/KnotLink.png" width="64" alt="KnotLinkService"/>
+  </a>
+&nbsp;&nbsp;
+  <a href="https://example.com/app-b" title="KnotHub">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件B"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-c" title="KnotLink工具链">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件C"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-d" title="KnotBlock">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件D"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="NodeLink">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="软件E"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="MineBackup">
+    <img src="docs/assets/icons/MineBackup.png" width="64" alt="MineBackup"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="FolderRewind">
+    <img src="docs/assets/icons/FolderRewind.png" width="64" alt="软件E"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="Frilet">
+    <img src="docs/assets/icons/Frilet.png" width="64" alt="Frilet"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="Friles">
+    <img src="docs/assets/icons/Friles.png" width="64" alt="Friles"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="Schedule">
+    <img src="docs/assets/icons/Schedule.png" width="64" alt="Schedule"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="MsgNotification">
+    <img src="docs/assets/icons/MsgNotification.png" width="64" alt="MsgNotification"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="NamePicker">
+    <img src="docs/assets/icons/NamePickerCircle.png" width="64" alt="NamePicker"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="InkCanvas">
+    <img src="docs/assets/icons/InkCanvas.png" width="64" alt="软件E"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://example.com/app-e" title="ClassIsland">
+    <img src="docs/assets/icons/ClassIsland.png" width="64" alt="ClassIsland"/>
+  </a>
+</p>
 
----
 
-## 🔗 什么是 KnotLink？
+|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./README.assets/KnotLink.png" width="64" alt="KnotLinkService" title="KnotLinkService"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotHub" title="KnotHub"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotLink工具链" title="KnotLink工具链"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="KnotBlock" title="KnotBlock"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="NodeLink" title="NodeLink"/> | <img src="./README.assets/MineBackup.png" width="64" alt="MineBackup" title="MineBackup"/> | <img src="./README.assets/FolderRewind.png" width="64" alt="FolderRewind" title="FolderRewind"/> |
+|                     **KnotLinkService**                      |                         **KnotHub**                          |                      **KnotLink工具链**                      |                        **KnotBlock**                         |                         **NodeLink**                         |                        **MineBackup**                        |                       **FolderRewind**                       |
 
-KnotLink 是一个 **轻量级的软件互联协议** ，它让不同的应用程序能够互相发现、理解并调用彼此的功能。
-
-它的核心理念很简单：
-
-> **每个软件只需要一份“功能清单”，就能被整个生态理解和调用。**
-
-无论是课表软件、屏幕书写工具、点名器，还是文件传输工具——只要接入 KnotLink，它们就不再是孤岛，而是可以自由协作的生态节点。
-
----
-
-## 🎯 为什么是 KnotLink？
-
-| 传统方式                     | KnotLink 方式              |
-| ---------------------------- | -------------------------- |
-| 为每个软件写专用的集成代码   | 一份标准的功能清单即可接入 |
-| 软件之间需要预先约定通信格式 | 通过协议动态发现和调用     |
-| 跨语言、跨平台集成困难       | 语言无关，协议统一         |
-| 生态建设成本高，难以扩展     | 一次接入，融入整个生态     |
-
----
-
-## 🧩 核心特性
-
-### 1. 功能清单 —— 让软件的能力可见
-
-每个 KnotLink 软件都通过一份 JSON格式的  **功能清单（FuncList）** ，声明自己对外提供的功能。
-
-```json
-{
-  "appName": "消息提醒",
-  "openSocket": {
-    "ShowMsg": {
-      "appID": "0x00000014",
-      "openSocketID": "0x00000010",
-      "description": "功能描述",
-      "args": {
-        "msgContext": {
-          "type": "input",
-          "description": "消息内容",
-          "defaultVal": "I am A Msg"
-        }
-      },
-      "returns": []
-    }
-  },
-  "signal": {}
-}
-```
-
-### 2. 四种身份 —— 灵活的互联模型
-
-KnotLink 定义了四种标准身份，一个软件可以同时拥有多种：
-
-| 身份                          | 职责                     |
-| ----------------------------- | ------------------------ |
-| **询问者 (Querier)**    | 主动发起请求，等待响应   |
-| **回复者 (Responser)** | 接收请求并返回结果       |
-| **发信者 (Sender)**     | 发送单向信号，不等待响应 |
-| **订阅者 (Subscriber)** | 监听特定信号，触发回调   |
-
-### 3. 三种数据格式 —— 适配不同场景
-
-| 格式             | 适用场景               |
-| ---------------- | ---------------------- |
-| **键值对** | 轻量传输、嵌入式设备   |
-| **JSON**   | 结构化数据、程序间通信 |
-| **CLI**    | CLI 交互、Shell 脚本   |
-
-### 4. 互联配方 —— 让自动化触手可及
-
-用户可以通过图形化拖拽或声明式配置，将多个软件的功能串联成自动化流程，并一键分享给他人。
-
-```**yaml**
-name: "一键上课"
-actions:
-  - call: "timetable.get_current_course"
-  - call: "inkeys.load_lecture"
-  - call: "rollcall.start"
-```
-
----
-
-## 📊 与其他方案的对比
-
-| 维度       | KnotLink | MCP     | D-Bus    | gRPC   | REST API |
-| ---------- | -------- | ------- | -------- | ------ | -------- |
-| 服务对象   | 普通应用 | AI 模型 | 系统进程 | 微服务 | Web 服务 |
-| 服务发现   | 内置     | 有      | 有       | 需外部 | 需外部   |
-| 接入成本   | 极低     | 高      | 高       | 中     | 低       |
-| 语义化调用 | ✅       | ✅      | ❌       | ❌     | ❌       |
-| 跨语言     | ✅       | ✅      | ❌       | ✅     | ✅       |
-
----
-
-## 🔮 应用场景
-
-### 教学场景
-
-课表 → 屏幕书写 → 点名器 → 文件传输 自动串联
-
-### 办公场景
-
-日历 → 会议软件 → 笔记工具 自动归档
-
-### 个人自动化
-
-天气 → 日历 → 智能家居 联动触发
-
-### AI 代理调用
-
-通过 KnotLink-SKILL，让 AI 直接操作生态中的任何软件
-
----
+|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./README.assets/Frilet.png" width="64" alt="Frilet" title="Frilet"/> | <img src="./README.assets/Friles.png" width="64" alt="Friles" title="Friles"/> | <img src="./README.assets/Schedule.png" width="64" alt="Schedule" title="Schedule"/> | <img src="./README.assets/MsgNotification.png" width="64" alt="MsgNotification" title="MsgNotification"/> | <img src="./README.assets/NamePickerCircle.png" width="64" alt="NamePicker" title="NamePicker"/> | <img src="./README.assets/InkCanvas.png" width="64" alt="InkCanvas" title="InkCanvas"/> | <img src="./README.assets/ClassIsland.png" width="64" alt="ClassIsland" title="ClassIsland"/> |
+|                          **Frilet**                          |                          **Friles**                          |                         **Schedule**                         |                     **MsgNotification**                      |                        **NamePicker**                        |                        **InkCanvas**                         |                       **ClassIsland**                        |
 
 ## 🌍 加入生态
 
